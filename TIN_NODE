@@ -15,3 +15,6 @@ git push -u origin main
 --cách clonde code github----------------------------
 1. vào thư mục muốn chứa file clonde đểchạy lệnh (phải cài git scm trước)
 2. chạy lệnh git clone https://github.com/phandaitin/web_pcdaklak_09112021.git
+3. cập nhật thay đổi từ vs code tren VPS
+    - git reset --hard
+    - git pull origin main
