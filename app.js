@@ -2,7 +2,8 @@ const express = require('express')
 const app = express()
 
 app.get('/',(req,res) =>{
-    res.send('abc git push pull final lan nữa')
+    res.send('<h1> - Đã push git <br> - Đã Pull git     </h1>')
+    
 })
 
 const port = 3000

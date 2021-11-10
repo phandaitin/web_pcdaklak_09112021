@@ -18,3 +18,12 @@ git push -u origin main
 3. cập nhật thay đổi từ vs code tren VPS
     - git reset --hard
     - git pull origin main
+4. cài pm2 đer không phải chạy npm start
+    - npm install pm2 -g
+    - pm2 start app.js --name APP --watch (nếu ko chạy thì chạy tiếp dòng dưới)
+    - Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+5. cài NGINX bằng cách tải về -> giải nén và chạy = câu lệnh tại thư mục chứa nó
+    - Chạy cmd hoặc Git bach lệnh: start nginx 
+    - link tham khảo https://stackjava.com/nginx/huong-dan-cai-dat-va-cau-hinh-nginx-tren-windows.html
+    - Chạy: http://localhost/ để thấy
+    - Cấu hình NGINX tại file: nginx.conf
